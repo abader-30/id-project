@@ -42,7 +42,7 @@ bool check_valid(string id)
     int y = stoi(id.substr(1, 2));
     int currentYear = 2026;
     int currentMonth = 2;
-    int currentDay = 15;
+    int currentDay = 14;
 
     if (c == 2) y = 1900 + y;
     else if (c == 3) y = 2000 + y;
