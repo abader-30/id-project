@@ -5,7 +5,6 @@
 using namespace std;
 string id;
 
-bool check = true;
 // gender check
 void gender(string id )
 {
