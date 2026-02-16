@@ -42,7 +42,7 @@ bool check_valid(string id)
     int y = stoi(id.substr(1, 2));
     int currentYear = 2026;
     int currentMonth = 2;
-    int currentDay = 14;
+    int currentDay = 16;
 
     if (c == 2) y = 1900 + y;
     else if (c == 3) y = 2000 + y;
@@ -121,7 +121,7 @@ void governorate(string id)
 void age(string id)
 {
  int d = stoi(id.substr(5, 2));
- int thisday = 14; /* assuming run befor day 14th this month*/
+ int thisday = 16; /* assuming run befor day 16h this month*/
  int age=0;
  int thismonth = 2; /*current month*/
  int monthbirth = stoi(id.substr(3, 2));
